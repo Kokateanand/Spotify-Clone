@@ -1,0 +1,305 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+
+}
+
+.nav {
+    width: 24vw;
+    /* background-color: rgb(100, 91, 91); */
+    border-radius: 1rem;
+    height: 90vh;
+    padding: 5px;
+    /*16px*/
+}
+
+.nav-content {
+    background-color: #121212;
+    height: 20vh;
+    border-radius: 1rem;
+    margin: 3px;
+    padding: 10px;
+}
+
+
+.nav-content ul {
+    list-style: none;
+}
+
+.list_1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.list_1 span {
+    margin: 0px 10px 0px 0px;
+    font-size: 25px;
+}
+
+.list_2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.list_2 span {
+    margin: 0px 10px 0px 0px;
+    font-size: 25px;
+}
+
+.nav-library {
+    background-color: #121212;
+    height: 80vh;
+    border-radius: 1rem;
+    margin: 3px;
+    font-size: 25px;
+}
+
+.library-hiding {
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Svg-sc-6c3c1v-0 {
+    fill: white;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.center span {
+    margin: 5px;
+}
+
+.library-content {
+    height: 200px;
+    /* background-color: #000; */
+    overflow: auto;
+
+}
+
+.library-content section {
+    background-color: #242424;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    border-radius: 1rem;
+
+
+}
+
+.library-content section div {
+    margin: 10px 0px 10px 0px;
+    font-size: 17px;
+
+}
+
+.library-content section button {
+    border-radius: 1rem;
+}
+
+.library-botam {
+    /* background-color: red; */
+    margin: 15px 0px 0px 1px;
+}
+
+.library-botam div {
+    /* height: 20px; */
+    /* background-color: aqua; */
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+
+}
+
+.library-botam div a {
+    text-decoration: none;
+    color: RGB(167, 167, 167);
+    margin: 0px 15px 15px 0px;
+    font-size: 18px;
+
+}
+
+.button {
+    display: flex;
+    margin: 10px 0px 5px 10px;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 1rem;
+}
+
+
+
+
+.main-content {
+    flex: 1;
+    height: 95vh;
+    padding: 0px 10px 0px 10px;
+    background-color: #1E1E1E;
+    border-radius: 1rem;
+    margin-left: 5px;
+    overflow: auto;
+    margin-bottom: -25px;
+    /*16px*/
+}
+
+.main-heding {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #101010;
+}
+
+.button-heding {
+    width: 65px;
+    padding: 5px;
+    /* height: 25px; */
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: white;
+    color: #121212;
+
+}
+
+.main-class {
+    margin: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.main-class a {
+    color: white;
+}
+
+.singer {
+    display: flex;
+    margin: 3px;
+}
+
+.singer-name img {
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 9px;
+
+}
+
+.Popular_Albums {
+    margin: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.Popular_Albums a {
+    color: white;
+}
+
+.Albums {
+    display: flex;
+    margin: 3px;
+
+}
+
+.album-name img {
+    width: 155px;
+    height: 200px;
+    margin: 9px;
+    border-radius: 10%;
+    object-fit: cover;
+
+}
+
+.singer-name h4 {
+    margin-bottom: -10px;
+}
+
+.album-name h4 {
+    margin-bottom: -10px;
+}
+
+.footer {
+    margin: 100px 10px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content h4 {
+    color: rgb(172, 172, 172);
+}
+
+.footer_content h3 {
+    font-size: 20px;
+}
+
+.copy {
+    margin-bottom: 35px;
+}
+
+.notification {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8%;
+    background-image: linear-gradient(to right, #AF2896, #509AF4);
+    color: aliceblue;
+
+}
+
+.icons {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.notification_flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.notf_content {
+    margin: -8px 0px -11px 10px;
+}
+
+.notf_content p {
+    margin-bottom: -12px;
+}
+
+.n_button {
+    width: 150px;
+    height: 30px;
+    color: #101010;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 13px 13px 11px 8px;
+}
