@@ -200,12 +200,13 @@ body {
 
 .singer {
     display: flex;
-    margin: 3px;
+    margin: 2px;
+    flex-wrap: wrap;
 }
 
 .singer-name img {
-    width: 156px;
-    height: 156px;
+    width: 155px;
+    height: 155px;
     border-radius: 50%;
     object-fit: cover;
     margin: 9px;
@@ -225,11 +226,12 @@ body {
 .Albums {
     display: flex;
     margin: 3px;
+    flex-wrap: wrap;
 
 }
 
 .album-name img {
-    width: 155px;
+    width: 153px;
     height: 200px;
     margin: 9px;
     border-radius: 10%;
